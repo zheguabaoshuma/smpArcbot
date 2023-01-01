@@ -8,7 +8,7 @@ Running on nonebot.
 `nonebot-adpter-cqhttp` 版本`2.0.0b1`  
 `nonebot-adapter-onebot` 版本`2.1.5`  
 
-
+（readme还没写完晚点会回来写说明）
 
 ## Documentation
 

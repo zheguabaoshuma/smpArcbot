@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">   
+    @font-face {
+        font-family: GeosansLight;
+        src: url('GeosansLight.ttf');
+    }
+    @font-face {
+        font-family: 'CascadiaCode';
+        src: url('/Windows/Fonts/CascadiaCode.ttf');
+    }
+
+    body{
+            background-image:url('5.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 230%;
+            background-position-y: bottom;
+            margin: auto;
+            width: fit-content;
+        }
+
+    #userinfo0{
+         height: 100px;
+         width: 200px;
+         position:relative;left: 100px;top: 30px;  
+    }
+    #userinfo1{
+        height: 100px;
+        width: 200px;
+        position: relative;left:1200px;bottom: 90px;
+    }
+    #user_id{
+        height: 50px;
+        width:200px;
+        color:azure;
+        font-family: GeosansLight;
+        font-size: large;
+        font-weight: 600;
+
+    }
+    #user_name{
+        height: 50px;
+        width:200px;
+        color:azure;
+        font-family: GeosansLight;
+        font-size: large;
+        font-weight: 600;
+
+    }
+    #user_ptt{
+        height: 50px;
+        width: 200px;
+        color:azure;
+        font-family: 'CascadiaCode';
+        background-image: url('10.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        right: 150px;
+    }
+    #userplayinfo{
+        height: 2000px;
+        width: 1200px;
+        margin: 30px auto;
+    }
+    #userplayinfor10{
+        height: 1000px;
+        width: 1200px;
+        margin: 30px auto;
+
+    }
+
+
+</style>
+</head>
+
+<body>
+    <div id="userinfo0" style="background-image: url('idbg.png');background-position-y: center;background-size: contain;background-repeat: no-repeat;">
+        <p id="user_id" style="position: relative;top:25px;text-align: center;">User_Id</p>
+        <p id="user_name" style="position: relative;bottom: 15px;text-align: center;">User_Name</p>
+    </div>
+    <div id="userinfo1">
+        <p id="user_ptt" style="text-align: center; line-height: 40px">User_Ptt &nbsp;</p>
+        <img src="gamedata/assets/char/1u_icon.png" alt="your character" width="65" height="65" style="position: relative;right:1130px;bottom: 75px">
+        
+    </div>
+
+    <div style="height: 120px;position: relative;bottom: 50px;">
+        <img src="title.png" alt="title" width="484" height="130">
+        <img src="gamedata/assets/startup/f1.png" width="400" height="73" style="position: relative;bottom: 75px">
+        <img src="gamedata/assets/startup/f2.png" width="450" height="73" style="position: relative;right: 355px;bottom:25px">
+        <img src="gamedata/assets/startup/f3.png" width="400" height="73" style="position: relative;left: 570px; bottom: 275px;">
+        <img src="gamedata/assets/char/1u.png" alt="your big character" width="300" height="300" style="position: relative;left: 600px;bottom: 200px">
+    </div>
+    <div id="useravr" style="width: 120px; position:relative;left: 50px;height: 90px;">
+        <p style="text-align: left; line-height: 40px; width: 600px;font-family: CascadiaCode;color: azure;background-image: url('avr.png');background-repeat: no-repeat;background-position-x: left;background-size: contain;">&nbsp;&nbsp; Average B30: </p>
+        <p style="font-family:GeosansLight;font-size:x-large;color: azure;font-weight: 600; position: relative;left: 200px;bottom: 60px;">apttx</p>
+        <p style="text-align: left; line-height: 40px; width: 600px;font-family: CascadiaCode;color: azure;background-image: url('avr.png');background-repeat: no-repeat;background-position-x: left;background-size: contain;position: relative;bottom: 50px;">&nbsp;&nbsp; Average R10: </p>
+        <p style="font-family:GeosansLight;font-size:x-large;color: azure;font-weight: 600; position: relative;left: 200px;bottom: 110px;">apttx</p>
+    </div>
+    <div id="userplayinfo">
+        <div id="b1" style="height: 100px;width: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b1  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+        
+        <div id="b2" style="height: 100px; width: 300px;position: relative;left: 450px;bottom: 100px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b2  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+        
+        <div id="b3" style="height: 100px;width: 300px;position: relative;left: 900px;bottom: 200px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b3  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b4" style="height: 100px;width: 300px;position: relative;bottom: 100px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b4  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b5" style="height: 100px;width: 300px;position: relative;left: 450px;bottom: 200px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b5  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b6" style="height: 100px;width: 300px;position: relative;left: 900px;bottom: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b6  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b7" style="height: 100px;width: 300px;position: relative;bottom: 200px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b7  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b8" style="height: 100px;width: 300px;position: relative;left: 450px;bottom: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b8  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b9" style="height: 100px;width: 300px;position: relative;left: 900px;bottom: 400px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b9  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b10" style="height: 100px;width: 300px;position: relative;bottom: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b10  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b11" style="height: 100px;width: 300px;position: relative;bottom: 400px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b11  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b12" style="height: 100px;width: 300px;position: relative;bottom: 500px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b12  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b13" style="height: 100px;width: 300px;position: relative;bottom: 400px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b13  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b14" style="height: 100px;width: 300px;position: relative;bottom: 500px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b14  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b15" style="height: 100px;width: 300px;position: relative;bottom: 600px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b15  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b16" style="height: 100px;width: 300px;position: relative;bottom: 500px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b16  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b17" style="height: 100px;width: 300px;position: relative;bottom: 600px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b17  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b18" style="height: 100px;width: 300px;position: relative;bottom: 700px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b18  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b19" style="height: 100px;width: 300px;position: relative;bottom: 600px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b19  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b20" style="height: 100px;width: 300px;position: relative;bottom: 700px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b20  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b21" style="height: 100px;width: 300px;position: relative;bottom: 800px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b21  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b22" style="height: 100px;width: 300px;position: relative;bottom: 700px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b22  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b23" style="height: 100px;width: 300px;position: relative;bottom: 800px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b23  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b24" style="height: 100px;width: 300px;position: relative;bottom: 900px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b24  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b25" style="height: 100px;width: 300px;position: relative;bottom: 800px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b25  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b26" style="height: 100px;width: 300px;position: relative;bottom: 900px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b26  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b27" style="height: 100px;width: 300px;position: relative;bottom: 1000px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b27  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b28" style="height: 100px;width: 300px;position: relative;bottom: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b28  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b29" style="height: 100px;width: 300px;position: relative;bottom: 1000px;left: 450px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b29  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="b30" style="height: 100px;width: 300px;position: relative;bottom: 1100px;left: 900px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">b30  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div style="color:azure;text-align: center;position: relative;bottom: 1050px;font-size: x-large; font-family: CascadiaCode;background: -webkit-linear-gradient(left,rgba(255,255,255,0),#1f1e33,rgba(255,255,255,0));">B30 ABOVE R10 BELOW</div>
+
+    </div>
+    <div id="userplayinfor10">
+        <div id="r1" style="height: 100px;width: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r1  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+        
+        <div id="r2" style="height: 100px; width: 300px;position: relative;left: 450px;bottom: 100px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r2  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+        
+        <div id="r3" style="height: 100px;width: 300px;position: relative;left: 900px;bottom: 200px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r3  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r4" style="height: 100px;width: 300px;position: relative;bottom: 100px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r4  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r5" style="height: 100px;width: 300px;position: relative;left: 450px;bottom: 200px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r5  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r6" style="height: 100px;width: 300px;position: relative;left: 900px;bottom: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r6  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r7" style="height: 100px;width: 300px;position: relative;bottom: 200px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r7  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r8" style="height: 100px;width: 300px;position: relative;left: 450px;bottom: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r8  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r9" style="height: 100px;width: 300px;position: relative;left: 900px;bottom: 400px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r9  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+
+        <div id="r10" style="height: 100px;width: 300px;position: relative;bottom: 300px;">
+            <img src="gamedata/assets/songs/arcahv/base_256.jpg" alt="b1" width="100" height="100">
+            <div style="width: 300px;position: relative;bottom: 102px;left: 105px;color:azure;font-size: x-large; font-family: CascadiaCode;">r10  </div>
+            <div style="width: 200px;position:relative;bottom: 97px;left: 105px;color:azure;font-weight: 300;font-size: larger;font-family: GeosansLight;background-image: url('diffhere.png');background-repeat: no-repeat;background-position-x:right;background-position-y: center;background-size: 30%;">Score: </div>
+            <div style="width: 200px;position: relative;bottom: 92px;left: 105px;color:azure;">Rating:  | Cst: </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -7,8 +7,8 @@ Running on nonebot.
 `nonebot2` 版本`2.0.0rc2`  
 `nonebot-adpter-cqhttp` 版本`2.0.0b1`  
 `nonebot-adapter-onebot` 版本`2.1.5`  
-首先需要搭建cqhttp，点开`cqhttp`的文件夹，然后
-（readme还没写完晚点会回来写说明）
+首先需要搭建cqhttp，点开`cqhttp`的文件夹，然后打开`config.yml`的文件(记事本打开就可以)，配置你已经创建好的qq账号  
+
 
 ## Documentation
 

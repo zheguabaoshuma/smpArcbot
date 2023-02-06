@@ -19,7 +19,7 @@ Running on nonebot.
 enter /smpArcbot, right click and enter Powershell, input cmd to switch to command console.  
 2、使用命令`activate your_environment_here`，激活你已经配置好的python环境，使用命令`python bot.py`开始运行Arcbot脚本。  
 use instruction `activate your_environment_here` to activate your python environment. use `python bot.py`to run the bot scripts.  
-3、go-cqhttp安装好之后会生成一个`go-cqhttp.bat`的批处理文件，双击执行。当出现： 
+3、go-cqhttp安装好之后会生成一个`go-cqhttp.bat`的批处理文件，双击执行。当出现:   
 double click `go-cqhttp.bat`. when you see:  
 ![图片](https://user-images.githubusercontent.com/89081551/216973976-e3ce92b0-7b2c-4208-aaa9-ee12e02e02d1.png)
 可以确定机器人已经完成连接，同时刚刚的命令提示符窗口会有Onebot插件提示`Connection Open`，现在就可以向你的机器人发送消息了！  

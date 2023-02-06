@@ -14,7 +14,7 @@ Running on nonebot.
 
 选择`3: 反向websockets通信`，配置完成后会出现一个`config.yml`的文件，用记事本打开，将机器人的QQ账号和密码填上，其他就没什么要管的了，如果出现什么问题可以参考官方文档`https://docs.go-cqhttp.org/`，或者直接百度（有很多相关的教程）。  
   
-##使用方法（How To Use）  
+## 使用方法（How To Use）  
 1、进入smpArcbot目录。右键打开PowerShell终端，输入cmd切换到命令提示行。  
 enter /smpArcbot, right click and enter Powershell, input cmd to switch to command console.  
 2、使用命令`activate your_environment_here`，激活你已经配置好的python环境，使用命令`python bot.py`开始运行Arcbot脚本。  
@@ -25,7 +25,7 @@ double click `go-cqhttp.bat`. when you see:
 可以确定机器人已经完成连接，同时刚刚的命令提示符窗口会有Onebot插件提示`Connection Open`，现在就可以向你的机器人发送消息了！  
 Now you can chat with your bot!  
   
-##使用说明（Instruction）  
+## 使用说明（Instruction）  
 1、使用`/arc bind [your id]`来绑定你的arcaea id。  
 2、使用`/arc songinfo [songid]`来查询某首曲子的信息，如果需要查询定数，使用`/arc songinfo cst [songid]`来查询，注意songid一般是曲子的小写英文名称（去空格），当然你也可以使用曲子的别名进行模糊查询（比如`/arc songinfo cst 世征`，`/arc songinfo cst FTR6`，`/arc songinfo cst 威猛先生`都会被定向到`World Vanquisher`）  
 3、使用`/arc lookup [username]`来查看（视奸）别人的id和ptt。（这个功能有些不准确，有待完善）  

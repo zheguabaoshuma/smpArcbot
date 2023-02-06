@@ -7,7 +7,7 @@ Running on nonebot.
 `nonebot2` 版本`2.0.0rc2`  
 `nonebot-adpter-cqhttp` 版本`2.0.0b1`  
 `nonebot-adapter-onebot` 版本`2.1.5`  
-（建议直接用conda配置一个新的环境）
+（建议直接用conda配置一个新的环境）  
 首先需要搭建cqhttp，出门右转`https://github.com/Mrs4s/go-cqhttp/releases`，选择`go-cqhttp_windows_amd64.exe`下载，然后执行exe文件，开始配置  
 
 ![图片](https://user-images.githubusercontent.com/89081551/216970675-ebe57a3a-17f8-40f6-8ce0-86158b0c4113.png)

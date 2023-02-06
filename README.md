@@ -29,4 +29,6 @@ Now you can chat with your bot!
 1、使用`/arc bind [your id]`来绑定你的arcaea id。  
 2、使用`/arc songinfo [songid]`来查询某首曲子的信息，如果需要查询定数，使用`/arc songinfo cst [songid]`来查询，注意songid一般是曲子的小写英文名称（去空格），当然你也可以使用曲子的别名进行模糊查询（比如`/arc songinfo cst 世征`，`/arc songinfo cst FTR6`，`/arc songinfo cst 威猛先生`都会被定向到`World Vanquisher`）  
 3、使用`/arc lookup [username]`来查看（视奸）别人的id和ptt。（这个功能有些不准确，有待完善）  
-4、使用`/arc b30`来获取你的b30和r10曲目，r10的算法是采用`http://wiki.arcaea.cn/%E6%BD%9C%E5%8A%9B%E5%80%BC#ptt.E7.BB.84.E6.88.90`的算法来计算。
+4、使用`/arc b30`来获取你的b30和r10曲目，r10的算法是采用`http://wiki.arcaea.cn/%E6%BD%9C%E5%8A%9B%E5%80%BC#ptt.E7.BB.84.E6.88.90`的算法来计算。  
+  
+### 有问题欢迎邮件到2010920@mail.nankai.edu.cn
